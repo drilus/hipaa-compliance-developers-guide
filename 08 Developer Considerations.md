@@ -10,12 +10,6 @@ Couple that with HIPAA compliant hosting providers, and it's easy to draw the co
 
 Unfortunately, the other pieces of the security rule safeguards aren't as easy to address or maintain and can take a ton of people-power and time to build out not just the features but the audit and logging functionality as well. 
 
-We think this comment from Hacker News sums up the technical debt required to roll your own HIPAA compliant infrastructure quite accurately. This was completely unsolicited and is not from a TrueVault customer. 
-
-> 	“[Building our own HIPAA compliant infrastructure] took upwards of 1,000 person-hours to figure out HIPAA-compliance issues. This will continue to be an ongoing cost for us, because HIPAA is an ongoing law 	and it changes sometimes. It takes substantial auditing time and money." — jph
-
-Looking at it as a 1,000 hour project is one way to evaluate the true cost of rolling your own compliance infrastructure, not to mention the ongoing audit and maintenance costs associated with your in-house solution.
-
 ## Unintended use cases
 
 As we've mentioned before, HIPAA isn't like the DMCA, there is no safe harbor clause for unintended transmission, storage or disclosure of PHI. Regardless of how you planned it, scoped it, envisioned it or dissuaded users from including it—if PHI is in your app or on your servers you could face HIPAA fines if you're not in compliance.
@@ -61,13 +55,11 @@ They address many of the Physical Safeguard requirements of the HIPAA Security r
 
 Ensuring your hosting environment is HIPAA compliant is only the first step. You must also implement network and application security best practices to protect your hosting environment.
 
-Health information is a popular commodity for hackers. According to a recent [Information Week article](http://www.informationweek.com/healthcare/security-and-privacy/healthcare-it-security-worse-than-retail-study-says/d/d-id/1269207), each health record could be worth as much as $20 on the black market. 
+Health information is a popular commodity for hackers. According to [Information Week article](http://www.informationweek.com/healthcare/security-and-privacy/healthcare-it-security-worse-than-retail-study-says/d/d-id/1269207), each health record could be worth as much as $20 on the black market. 
 
-It's easy to imagine hackers trying to breach your servers when your application becomes popular. You need to be sure your HIPAA  hosting environment is locked down and secure from unauthorized access attempts.
+It's easy to imagine hackers trying to breach your servers when your application becomes popular. You need to be sure your HIPAA hosting environment is locked down and secure from unauthorized access attempts.
 
 ### High-Availability and Redundancy
-
-A good infrastructure design eliminates all single-point-of-failures. While running one web server and one database server may save you money in the short run, how much would it cost your business if that one web server goes offline causing the entire hosting environment to crumble? 
 
 It's best to design your hosting environment with at least 2 web servers behind a load balancer and 2 database servers on a active/passive failover setup. 
 

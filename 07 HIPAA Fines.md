@@ -21,11 +21,9 @@ Breaches can occur when employees lose unencrypted portable devices, mistakenly 
 These are all examples from actual cases. Employee training and adherence to security policies and procedures is extremely important.
 
 ## Data Stored on Devices
-Almost half of all data breaches are the result of theft. When laptops, smartphones, etc. are unencrypted the risk of a breach increases considerably. With TrueVault, your data is safely stored off-premise; so that stolen laptop just has a token on it, and no PHI is compromised.
+Almost half of all data breaches are the result of theft. When laptops, smartphones, etc. are unencrypted the risk of a breach increases considerably.
 
 ## Business Associates
-Almost two-thirds of data breaches involved a business associate. Meaning that you delegated a covered function or activity to someone, and that someone messed up. So pick your partners carefully. 
-
 Some of the largest breaches reported to HHS have involved business associates. As a result, the final omnibus rule expanded many of the requirements to business associates and greatly enhanced the government’s ability to enforce the law.
 
 **What sort of penalties are we talking about? Check out this chart with fines levied in years past:**
@@ -35,10 +33,6 @@ Some of the largest breaches reported to HHS have involved business associates. 
 Source: HHS, Case Examples and Resolution Agreements
 
 Looking at this chart we can conclude that HHS does not like people storing unencrypted PHI on mobile devices. What we don’t see yet are fines levied against business associates. 
-
-2014 is the first year where business associates will be audited and fined. Smart money says that the first fines levied against business associates will be passed down toward the end of this year.
-
-If these fines make you nervous, then this might be a good time to revisit your decision about whether your application needs to be HIPAA compliant or not.
 
 The good news is that not every PHI breach ends in a fine. If you can show that you have made a reasonable effort to comply with HIPAA then you may not be dinged.
 

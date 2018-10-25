@@ -11,9 +11,9 @@ Developed in 1996 HIPAA was initially created to help the public with insurance 
 Along with portability came privacy concerns, to the law makers built in a series of privacy tools and requirements to protect healthcare data.
 
 ## 2013 Final Omnibus Rule Update 
-In September of 2013, the [Final Omnibus Rule Update](http://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#cite_note-33) was passed that amended HIPAA and greatly expanded the definition of who needed to be HIPAA compliant. Previously, only covered entities (such as doctors, hospitals, and insurers) were required to be HIPAA compliant. 
+In September of 2013, the [Final Omnibus Rule Update](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#cite_note-33) was passed that amended HIPAA and greatly expanded the definition of who needed to be HIPAA compliant. Previously, only covered entities (such as doctors, hospitals, and insurers) were required to be HIPAA compliant. 
 
-With the recent rule change however, all entities that store, manage, record or pass Protected Health Information (we'll just call it PHI from now on) to and from covered entities are also required to be HIPAA compliant. 
+With the rule change all entities that store, manage, record or pass Protected Health Information to and from covered entities are also required to be HIPAA compliant. 
 
 These entities, called Business Associates, who were previously exempt from HIPAA, now fall under its governance.
 
@@ -33,7 +33,7 @@ Like the four horsemen, these are the major pieces that govern what you do and h
 
 ### Protected Health Information (PHI)
 
-You will hear this term non-stop when dealing with applications that can store health information. It's typically called PHI although some parts of the law refer to digitally-stored PHI as ePHI. We'll stick with PHI for consistency. 
+You will hear this term non-stop when dealing with applications that can store health information. It's typically called PHI although some parts of the law refer to digitally-stored PHI as ePHI.
 
 PHI is any information in a medical record that can be used to identify an individual, and that was created, used, or disclosed in the course of providing a health care service, such as a diagnosis or treatment. 
 
